@@ -1,34 +1,38 @@
 [
     {
         "type": "File",
-        "name": "/workspace/LearningDjango/django_todo/urls.py",
+        "name": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\manage.py",
         "parent_id": null,
-        "workspaceRoot": "/workspace/LearningDjango",
-        "workspacePath": "django_todo/urls.py",
-        "id": "iSQRCzf3omYnFG5w"
+        "fsPath": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\manage.py",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "QRMDYVotysB3hW4J"
     },
     {
         "type": "File",
-        "name": "/workspace/LearningDjango/manage.py",
+        "name": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\README.md",
         "parent_id": null,
-        "workspaceRoot": "/workspace/LearningDjango",
-        "workspacePath": "manage.py",
-        "id": "JCEFjwfuY4HG9Q2A"
+        "fsPath": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\README.md",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "bLdkvTRuAgN9HX6q"
     },
     {
         "type": "File",
-        "name": "/workspace/LearningDjango/todo/views.py",
+        "name": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\todo\\views.py",
         "parent_id": null,
-        "workspaceRoot": "/workspace/LearningDjango",
-        "workspacePath": "todo/views.py",
-        "id": "rEbQ2JetZaFqiTYR"
+        "fsPath": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\todo\\views.py",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "1I6CQ4drlKRAhNmE"
     },
     {
         "type": "File",
-        "name": "/workspace/LearningDjango/README.md",
+        "name": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\django_todo\\urls.py",
         "parent_id": null,
-        "workspaceRoot": "/workspace/LearningDjango",
-        "workspacePath": "README.md",
-        "id": "Ej8cV9pi3PxDLN6Q"
+        "fsPath": "c:\\Users\\Elliot\\Desktop\\LearningDjango\\django_todo\\urls.py",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "eVv6SZ7DFCbR9WiP"
     }
 ]
