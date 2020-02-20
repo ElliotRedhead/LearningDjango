@@ -49,6 +49,19 @@ sqlite3 db.sqlite3
 
 6. View all tables in the listed database.  
 
-``` console
+``` sqlite3
 select * from django_migrations;
+```
+
+7. View headers and show formatted columns.
+
+``` sqlite3
+.headers on
+.mode column
+```
+
+8. Quit sqlite3.
+
+``` sqlite3
+.quit
 ```
