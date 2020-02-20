@@ -33,8 +33,20 @@ django-admin startproject django_todo .
 python3 manage.py runserver
 ```
 
-4. Create an app called "todo"  
+4. Create an app called "todo".  
 
 ``` console
 django-admin startapp todo
+```
+
+5. Access the in-built sqlite database.  
+
+``` console
+sqlite3 db.sqlite3
+```
+
+6. View all tables in the listed database.  
+
+``` console
+select * from django_migrations
 ```
