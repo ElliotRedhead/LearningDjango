@@ -7,7 +7,11 @@ This project provides an example of a Django-based web app.
 
 ## Instructional Notes
 
-Views and URLs are linked via the urls.py and views.py functions.  
+- Views and URLs are linked via the urls.py and views.py functions.  
+
+- Ensure view functions are imported to urls.py alongside requirement in urlpatterns.
+
+- Error: "TemplateDoesNotExist at /", ensure app name e.g."todo" is in the INSTALLED_APPS list of settings.py.
 
 ### Commands
 
