@@ -1,4 +1,5 @@
 # Learning Django
+
 ## Django To-Do Application
 
 ### Purpose / Scope
