@@ -32,6 +32,7 @@ django-admin startproject django_todo .
 
 ``` console
 python3 manage.py runserver
+py manage.py runserver
 ```
 
 4. Create an app called "todo".  
