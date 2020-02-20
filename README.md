@@ -14,6 +14,8 @@ This project provides an example of a Django-based web app.
 
 - Error: "TemplateDoesNotExist at /", ensure app name e.g."todo" is in the INSTALLED_APPS list of settings.py.
 
+- To install sqlite3: download the .dll for the required OS, ensure environmental variables are configured for this.
+
 ### Commands
 
 1. Install a specific version of Django that is compatible with the CI course instructional content:  
