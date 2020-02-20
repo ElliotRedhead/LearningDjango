@@ -1,0 +1,34 @@
+[
+    {
+        "type": "File",
+        "name": "/workspace/LearningDjango/django_todo/urls.py",
+        "parent_id": null,
+        "workspaceRoot": "/workspace/LearningDjango",
+        "workspacePath": "django_todo/urls.py",
+        "id": "iSQRCzf3omYnFG5w"
+    },
+    {
+        "type": "File",
+        "name": "/workspace/LearningDjango/manage.py",
+        "parent_id": null,
+        "workspaceRoot": "/workspace/LearningDjango",
+        "workspacePath": "manage.py",
+        "id": "JCEFjwfuY4HG9Q2A"
+    },
+    {
+        "type": "File",
+        "name": "/workspace/LearningDjango/todo/views.py",
+        "parent_id": null,
+        "workspaceRoot": "/workspace/LearningDjango",
+        "workspacePath": "todo/views.py",
+        "id": "rEbQ2JetZaFqiTYR"
+    },
+    {
+        "type": "File",
+        "name": "/workspace/LearningDjango/README.md",
+        "parent_id": null,
+        "workspaceRoot": "/workspace/LearningDjango",
+        "workspacePath": "README.md",
+        "id": "Ej8cV9pi3PxDLN6Q"
+    }
+]
