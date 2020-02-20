@@ -50,5 +50,5 @@ sqlite3 db.sqlite3
 6. View all tables in the listed database.  
 
 ``` console
-select * from django_migrations
+select * from django_migrations;
 ```
