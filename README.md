@@ -20,56 +20,62 @@ This project provides an example of a Django-based web app.
 
 1. Install a specific version of Django that is compatible with the CI course instructional content:  
 
-``` console
-pip3 install django==1.11.24
-```
+   ``` console
+   pip3 install django==1.11.24
+   ```
 
 2. Create a Django project "a collection of settings for an instance of Django, including database configuration, Django-specific options and application-specific settings."  
 
-``` console
-django-admin startproject django_todo .
-```
+   ``` console
+   django-admin startproject django_todo .
+   ```
 
-3. Run the Django project server.  
+3. Run the Django project server.
 
-``` console
-python3 manage.py runserver
-py manage.py runserver
-```
+   ``` console
+   python3 manage.py runserver
+   py manage.py runserver
+   ```
 
-4. Create an app called "todo".  
-
-``` console
-django-admin startapp todo
-```
+4. Create an app called "todo".
+  
+   ``` console
+   django-admin startapp todo
+   ```
 
 5. Perform migration.  
 
-``` console
-python3 manage.py migrate  
-```
+   ``` console
+   python3 manage.py migrate  
+   ```
 
 6. Access the in-built sqlite database.  
 
-``` console
-sqlite3 db.sqlite3
-```
+   ``` console
+   sqlite3 db.sqlite3
+   ```
 
 7. View all tables in the listed database.  
 
-``` sqlite3
-select * from django_migrations;
-```
+   ``` sql
+   select * from django_migrations;
+   ```
 
 8. View headers and show formatted columns.
 
-``` sqlite3
-.headers on
-.mode column
-```
+   ``` sql
+   .headers on
+   .mode column
+   ```
 
 9. Quit sqlite3.
 
-``` sqlite3
-.quit
-```
+   ``` sql
+   .quit
+   ```
+
+10. Create superuser.
+
+    ``` console
+    python3 manage.py createsuperuser
+    ```
