@@ -17,8 +17,10 @@ def create_an_item(request):
     Generates a form for the user to create a new item.
     """
     if request.method == "POST":
+        print(request.POST)
         new_item = Item()
         new_item.name = request.POST.get("name")
+        new_item.done = "done" in request.POST
         new_item.save()
         return redirect(get_todo_list)
     return render(request, "item_form.html")
