@@ -79,3 +79,9 @@ This project provides an example of a Django-based web app.
     ``` console
     python3 manage.py createsuperuser
     ```
+
+11. Apply models.
+
+   ``` console
+   pyton3 manage.py makemigrations
+    ```
