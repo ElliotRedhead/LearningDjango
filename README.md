@@ -43,26 +43,32 @@ py manage.py runserver
 django-admin startapp todo
 ```
 
-5. Access the in-built sqlite database.  
+5. Perform migration.  
+
+``` console
+python3 manage.py migrate  
+```
+
+6. Access the in-built sqlite database.  
 
 ``` console
 sqlite3 db.sqlite3
 ```
 
-6. View all tables in the listed database.  
+7. View all tables in the listed database.  
 
 ``` sqlite3
 select * from django_migrations;
 ```
 
-7. View headers and show formatted columns.
+8. View headers and show formatted columns.
 
 ``` sqlite3
 .headers on
 .mode column
 ```
 
-8. Quit sqlite3.
+9. Quit sqlite3.
 
 ``` sqlite3
 .quit
