@@ -14,11 +14,11 @@
 <body>
     <h1>I need to do this...</h1>
 
-    {{<form method="POST">
+    <form method="POST">
         {% csrf_token %}
-        {{ form }}
+        {{ form.as_p }}
         <button type="submit">Save</button>
-    </form>}}
+    </form>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
