@@ -83,5 +83,11 @@ This project provides an example of a Django-based web app.
 11. Apply models.
 
    ``` console
-   pyton3 manage.py makemigrations
+   python3 manage.py makemigrations
     ```
+
+12. Running tests in tests.py.
+
+   ``` console
+   python3 manage.py tests
+   ```
