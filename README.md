@@ -91,3 +91,15 @@ This project provides an example of a Django-based web app.
    ``` console
    python3 manage.py tests
    ```
+
+13. Run specific coverage test.
+
+    ``` console
+    coverage run --source=todo manage.py test
+    ```
+
+14. Generate coverage report.
+
+    ``` console
+    coverage html
+    ```
