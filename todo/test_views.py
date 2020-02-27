@@ -1,6 +1,6 @@
 from django.test import TestCase
 from .models import Item
-
+from django.shortcuts import get_object_or_404
 
 class TestViews(TestCase):
     def test_get_home_page(self):
@@ -36,7 +36,7 @@ class TestViews(TestCase):
         id = item.id
 
         response = self.client.post("/edit/{0}".format(id), {"name": "A different name"})
-        item = get_object_or_404
+        item = get_object_or_404(Item, pk=id)
         self.assertEqual("A different name", item.name)
     
     def test_toggle_status(self):
