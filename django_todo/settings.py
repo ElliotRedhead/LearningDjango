@@ -34,7 +34,7 @@ SECRET_KEY = '5@rx%!8cd&=r!#m@q7c&kwimp685a&u)&oaguvh(hav5h4aj0+'
 # DEBUG = development
 DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get("HOSTNAME")
+ALLOWED_HOSTS = [os.environ.get("HOSTNAME")]
 
 # Application definition
 
