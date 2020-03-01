@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 import dj_database_url
+import env
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +27,9 @@ SECRET_KEY = '5@rx%!8cd&=r!#m@q7c&kwimp685a&u)&oaguvh(hav5h4aj0+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-ci-todo.herokuapp.com"]
+if "HOSTNAME" in os.environ:
+    ALLOWED_HOSTS = os.environ.get("HOSTNAME")
+
 
 
 # Application definition
@@ -82,7 +85,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #     }
 # }
 
-DATABASES = {"default": dj_database_url.parse("postgres://qaalgapknvtnpk:404b59ad750ca7f47c1a1204b35fd4d39a0a765c7c598d9b40e9728558d991bc@ec2-54-246-89-234.eu-west-1.compute.amazonaws.com:5432/d54koc0imtm6vv")}
+DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
